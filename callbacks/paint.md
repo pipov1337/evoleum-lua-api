@@ -6,7 +6,7 @@ you can call all [render.\*](https://docs.primordial.dev/api\_functions/render/)
 
 this callback is called every frame
 
-```
+```lua
 local function on_paint()
     print(client.get_fps())
 
