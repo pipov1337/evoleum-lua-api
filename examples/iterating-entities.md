@@ -1,3 +1,7 @@
+---
+description: Useful information
+---
+
 # Iterating Entities
 
 ```lua
