@@ -95,7 +95,7 @@ slider_t add_slider(string group, string name, int digits, double min, double ma
 
 **Example**
 
-```
+```lua
 local slider_item = menu.add_slider("group", "slider", 1, 0, 10, 0.5)
 ```
 
