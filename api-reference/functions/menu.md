@@ -18,6 +18,24 @@ float get_alpha()
 print("menu opened: ", menu.get_alpha() > 0)
 ```
 
+## add\_group
+
+Creates a group econtrol and returns it
+
+```lua
+group_t add_group(string name)
+```
+
+| Fields | Description |
+| ------ | ----------- |
+| name   | group name  |
+
+#### Example
+
+```lua
+local group = menu.add_group("group")
+```
+
 ## add\_checkbox
 
 Creates a checkbox control and returns it
@@ -67,13 +85,13 @@ Creates a slider control and returns it
 slider_t add_slider(string group, string name, int digits, double min, double max, double currentValue)
 ```
 
-|              | Description                      |
-| ------------ | -------------------------------- |
-| `group`      | group name                       |
-| `name`       | selection name                   |
-| `min`        | minimum slider value             |
-| `max`        | maximum slider value             |
-| currentValue | current slider value (0.0 - 1.0) |
+|                | Description                      |
+| -------------- | -------------------------------- |
+| `group`        | group name                       |
+| `name`         | selection name                   |
+| `min`          | minimum slider value             |
+| `max`          | maximum slider value             |
+| `currentValue` | current slider value (0.0 - 1.0) |
 
 **Example**
 
@@ -93,7 +111,7 @@ text_input_t add_text_input(string group, string name, string input)
 | ------- | -------------- |
 | `group` | group name     |
 | `name`  | selection name |
-| input   | text input     |
+| `input` | text input     |
 
 #### Example
 

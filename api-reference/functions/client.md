@@ -37,11 +37,67 @@ print(client.get_unix_time())
 Returns the player location
 
 ```lua
-int is_singleplayer()
+bool is_singleplayer()
 ```
 
 **Example**
 
 ```lua
 print(client.is_singleplayer())
+```
+
+## get\_partial\_ticks
+
+#### Returns the ticks
+
+```lua
+float get_partial_ticks()
+```
+
+## Example
+
+```lua
+print(client.get_partial_ticks())
+```
+
+## random\_float
+
+#### Returns random float
+
+```lua
+float random_float(float min, float max)
+```
+
+## Example
+
+```lua
+print(client.random_float(10, 50))
+```
+
+## random\_int
+
+#### Returns random int
+
+```lua
+int random_float(int min, int max)
+```
+
+## Example
+
+```lua
+print(client.random_int(10, 50))
+```
+
+## print
+
+Sending a local message
+
+```lua
+function print(string message)
+```
+
+## Example
+
+```lua
+client.print("Test Message")
 ```

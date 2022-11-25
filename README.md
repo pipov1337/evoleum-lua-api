@@ -11,7 +11,7 @@ description: Welcome!
 Evoleum - it\`s minecraft cheat client to version 1.12.2. With unique features, fast and high-quality support.
 
 {% hint style="info" %}
-#### Actual client version: beta1.0
+#### Actual client version: beta 1.0
 {% endhint %}
 
 ## Location
